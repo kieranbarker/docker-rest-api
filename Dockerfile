@@ -1,5 +1,5 @@
 # Sets the base image to start from, Node v20 in this case.
-FROM node:20
+FROM node:20-alpine
 
 # Sets the working directory inside the image's filesystem.
 WORKDIR /home/node/rest-api
